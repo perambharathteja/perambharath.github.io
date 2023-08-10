@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.image {
+    height: 40px;
+}
+
+.nav-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.footer2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+    font-family: "Roboto";
+}
+
+.footer0 {
+    font-weight: 1200;
+    transition-duration: 1s;
+}
+
+.footer0:hover {
+    color: rgb(243, 168, 7);
+}
+
+.footer2 .heading {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.footer3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer2 .heading:hover {
+    color: rgb(243, 168, 7);
+}
+
+.footer2 .div:hover {
+    transform: scale(1.05);
+}
+
+.footer3 h4 {
+    margin: 0 10px;
+}
+
+.footer2 div {
+    margin: 10px;
+}
+
+.payment-button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px;
+    border-width: 0px;
+    border-radius: 23px;
+    font-family: "Roboto";
+}
+
+.radio-buttons {
+    display: flex;
+    margin-left: 50px;
+}
+
+.Address-type-details {
+    text-align: center;
+}
+
+.input {
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+.address-card {
+    border-width: 1px;
+    background-color: #ffffff;
+    border-style: solid;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.card-content {
+    font-family: "Roboto";
+}
+
+.change-button {
+    background-color: #cfd1cf;
+    font-family: "Roboto";
+    width: 160px;
+    padding: 6px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.contact-name {
+    color: #416941;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.card-container {
+    border-width: 1px;
+    background-color: #ffffff;
+    border-style: solid;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.card-containers {
+    border-width: 1px;
+    background-color: #ffffff;
+    border-style: solid;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.Checkout-text {
+    text-decoration: underline;
+}
+
+.main-heading {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bold;
+}
+
+body {
+    padding-top: 56px;
+}
+
+.main.container {
+    margin-top: 56px;
+}
+
+body {
+    background-attachment: fixed;
+
+    padding-top: 56px;
+}
+
+.order-sum-head {
+    color: black;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.hoodie-card {
+    background-color: #C0E2F6;
+    border-radius: 8px;
+    text-align: center;
+    width: 130px;
+    height: 180px;
+    padding-top: 37px;
+
+}
+
+.hoodie-img {
+    width: 80px;
+    height: 100px;
+}
+
+.item-name {
+    color: black;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.item-color {
+    color: #506875;
+    padding-right: 20px;
+}
+
+.vertical {
+    border-left: 1px solid black;
+    height: 26px;
+    padding-right: 20px;
+}
+
+.item-size {
+    color: #506875;
+}
+
+.dec-card {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #8B9BA3;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 18px;
+}
+
+.dec {
+    font-size: 40px;
+    color: #8B9BA3
+}
+
+.inc-card {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #8B989F;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 32px;
+}
+
+.inc {
+    font-size: 23px;
+    color: #4C575E;
+}
+
+.count {
+    padding-top: 88px;
+}
+
+.item-price-card {
+    width: 70px;
+    height: 50px;
+    border-color: #62E782;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.item-price {
+    color: #62E782;
+    font-weight: 700;
+}
+
+.remove-1 {
+    color: #2D80F5;
+    font-family: "Roboto";
+    font-weight: 600;
+    padding-top: 110px;
+    padding-left: 50px;
+}
+.remove-2 {
+    color: #2D80F5;
+    font-family: "Roboto";
+    font-weight: 600;
+    padding-top: 110px;
+    padding-left: 60px;
+}
+.remove-3 {
+    color: #2D80F5;
+    font-family: "Roboto";
+    font-weight: 600;
+    padding-top: 110px;
+    padding-left: 60px;
+}
+
+
+.dis-code-head {
+    color: #506875;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.applpy-btn {
+    width: 90px;
+    height: 35px;
+    border-width: 0px;
+    border-radius: 13px;
+    color: #506875;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.input-search {
+    border-width: 1px;
+    border-color: #506875;
+    border-radius: 10px;
+    width: 100vw;
+}
+
+.cost-name {
+    color: #9FB3D3;
+    font-family: "Roboto";
+
+}
+
+.cost {
+    font-weight: 700;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirm-btn {
+    color: #ffffff;
+    background-color: black;
+    border-width: 0px;
+    border-radius: 15px;
+    font-family: "Roboto";
+    height: 40px;
+    width: 90vw;
+}
+
+.cost-name-total {
+    font-weight: 700;
+}
+
+.span-ele {
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: "Roboto";
+    color: #272829;
+}
+
+.information-para {
+    color: #9FB3D3;
+    font-family: "Roboto";
+    text-align: center;
+}
